@@ -4,7 +4,7 @@ import "./style.css";
 
 export default function ImageSlider({ url, limit }) {
   const [images, setImages] = useState([]);
-  const [currentSlider, setCurrentSlider] = useState(-1);
+  const [currentSlider, setCurrentSlider] = useState(0);
   const [errorMsg, setErrorMsg] = useState(null);
   const [loading, setLoading] = useState(false);
 
